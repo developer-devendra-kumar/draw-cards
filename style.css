@@ -1,0 +1,76 @@
+body {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card {
+  width: 100px;
+  height: 150px;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 20px 100px 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+.card-color-black {
+  color: black;
+}
+.card-color-red {
+  color: red;
+}
+.card-top {
+  font-size: 1.25rem;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: start;
+  padding-left: 5px;
+}
+.card-bottom {
+  font-size: 1.25rem;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: end;
+  padding-right: 5px;
+}
+.card-middle {
+  font-size: 2.5rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+}
+.card-symbol-xsm {
+  font-size: 1rem !important;
+}
+.card-symbol-sm {
+  font-size: 1.25rem !important;
+}
+.card-symbol-md {
+  font-size: 1.1rem !important;
+}
+.card-symbol-lg {
+  font-size: 2rem !important;
+}
+.card-symbol-space-between {
+  justify-content: space-between;
+}
+.card-symbol-space-evenly {
+  justify-content: space-evenly;
+}
+.card-symbol-space-around {
+  justify-content: space-around;
+}
+.card-item-span {
+  grid-area: 2 / 1 / span 1 / span 2;
+  text-align: center;
+}
